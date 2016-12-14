@@ -1,0 +1,153 @@
+body {
+    background-color: #ececea;
+
+}
+
+h1 {
+    font-family: 'Muli', sans-serif;
+    font-size:48px;
+    margin-bottom:10px;
+}
+h3 {
+    font-family: 'Muli', sans-serif;
+    font-size:24px;
+    margin-top:10px;
+}
+
+.btn-group-a{
+    margin:30px 0px 10px 0px;
+}
+
+.btn-group{
+    margin:5px 0px;
+}
+.btn-group-n{
+    margin:30px 0px 10px 0px;
+}
+
+.canvas{
+    min-height:1600px;
+    height:100%;
+}
+svg {
+        float:left;
+
+}
+
+p {
+    font-family: 'Playfair Display', serif;
+    font-size:18px;
+}
+.price-slider {
+    font-family: 'Muli', sans-serif;
+    font-size:14px;
+/*    margin-top:10px;
+*/}
+/* tooltip */
+.container{
+    position:relative;
+}
+.custom-tooltip{
+    position: absolute;
+    z-index: 9999;
+    width: 200px;
+    height: 175px;
+    padding-top: 25px;
+    left: 50%;
+    margin-left: 73px;
+    bottom: 100%;
+    border-radius: 10%;
+    border: 1px solid #999;
+    text-align: center;
+    background: #fff;
+    color: #666;
+    opacity: 0;
+    margin-bottom: 20px;
+    cursor: default;
+    pointer-events: none;
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+    -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+    transition: opacity 0.3s, transform 0.3s;
+    
+}
+    .custom-tooltip .title{
+        font-size:1.2em;
+        font-weight:bold;
+    }
+        .custom-tooltip .address{
+        font-size:.8em;
+        font-family: 'Muli', sans-serif;
+    }
+        .custom-tooltip .roomType{
+        font-size:.8em;
+        font-family: 'Muli', sans-serif;
+        text-transform: uppercase;
+        font-weight: bolder;
+    }
+
+    .custom-tooltip .value{
+        font-size:1.5em;
+        font-weight:bold;
+    }
+
+.roomType.E {
+    color:#77d2d8;
+}
+.roomType.P {
+    color:#a3923f;
+}
+.roomType.S {
+    color:#c6035f;
+}
+
+        
+    .custom-tooltip::after {
+    position: absolute;
+    top: 163px;
+    left:25%;
+    width: 60px;
+    height: 60px;
+    background: url(../tooltip3.svg) no-repeat center center;
+    color:#999;
+    background-size: 100%;
+    content: '';
+    transition: transform 0.3s;
+    transform-origin: 0 0;
+}
+    .custom-tooltip .orange {
+        border: 1px solid #cc9900;
+    }
+
+    .point{
+    opacity:.65;
+}
+
+.half {
+    width:50%;
+}
+
+.left {
+    float:left;
+}
+.right {
+    float:right;
+}
+
+.axis.axis-x path {
+
+    fill: none;
+    position: absolute;
+    top:0;
+}
+
+/*.axis.axis-x text {
+
+    fill: none;
+}
+*/
+path.domain {
+
+    stroke-width:0px;
+}
+

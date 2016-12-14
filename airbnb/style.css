@@ -1,0 +1,32 @@
+.axis .tick line{
+    stroke:rgb(150,150,150);
+}
+
+.axis .tick line{
+    stroke-width:.5px;
+}
+
+.node{
+    fill:rgb(200,200,200);
+    stroke:white;
+}
+
+.overlay {
+  fill: none;
+  pointer-events: all;
+}
+
+.axis.axis-x path {
+
+    fill: none;
+}
+
+/*.axis.axis-x text {
+
+    fill: none;
+}
+*/
+path.domain {
+
+    stroke-width:0px;
+}

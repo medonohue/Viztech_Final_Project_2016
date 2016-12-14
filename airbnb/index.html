@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link href="../bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="../global.css" rel="stylesheet"/>
+    <link href="./style.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+
+</head>
+<body>
+<div class="container">
+    <div class="half left">
+        <h1>Airbnb in Boston</h1>
+        <h3>Costs and availability by neighborhood</h3>
+        <div>
+            <p class="price-slider">
+              Price = <span id="goal-value">750</span>
+              <input style="width: 200px;" type="range" min="0" max="750" id="goal" value="750" step='1'>
+            </p>
+        </div>
+
+    </div>
+    <div class="half left">
+<!--         <div class="btn-group-a">
+        <a href="http://localhost:8000/_Final/2016-Final-01/10.1" class="btn btn-default" style="color: #333; background: #f9f9f9; border-color: #333;">Map</a>
+        <a href="http://localhost:8000/_Final/2016-Final-02/11.3/#" class="btn btn-default" style="color: #333; background: #f9f9f9; border-color: #333;">Graph</a>
+        </div>
+ -->        <div class="btn-group-n">
+        <a href="#" class="btn btn-default" style="color: #fff; background: #333; border-color: #fff;">By Neighborhood</a>
+        </div>
+        <div class="btn-group">
+        </div>
+        
+    </div>
+</div>
+
+    <section class="canvas" id="canvas">
+    </section>
+    <div class="custom-tooltip">
+        <p class="roomType"></p>
+        <p class="title"></h3>
+        <p class="address"></p>
+        <p class="value"></p>
+    </div>
+</div>
+
+
+<script src="../d3.js"></script>
+<script src="//d3js.org/topojson.v1.min.js"></script>
+<script src="script.js"></script>
+
+
+</body>
+</html>
