@@ -108,7 +108,7 @@ p {
     left:25%;
     width: 60px;
     height: 60px;
-    background: url(../tooltip3.svg) no-repeat center center;
+    background: url(./tooltip3.svg) no-repeat center center;
     color:#999;
     background-size: 100%;
     content: '';
